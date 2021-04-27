@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url('../assets/pexels-anni-roenkae-2457284.jpg');
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+
+#root,
+.main-container-react {
+  height: 100%;
+}
+
+.home-section-container {
+  padding-top: 80px;
+  padding-left: 110px;
+  width: 60%;
+}
+
+.home-tagline {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 60px;
+}
+
+.home-section-container p {
+  padding-left: 20px;
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-left: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a,
+#logout {
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+a:hover,
+#logout:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Post */
+.post-title {
+  text-align: center;
+}
+
+.post-content {
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.post-author {
+  text-align: right;
+}
+
+/* RegForm */
+.reg-form-container,
+.posts-container,
+.post-container,
+.post-comments-container,
+.create-post-textarea-container {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 60%;
+  padding: 20px;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus,
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #2f2c2c;
+  margin-bottom: 25px;
+}
+
+.registerbtn,
+.signinbtn,
+.create-post-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover,
+.signinbtn:hover,
+.commentbtn:hover {
+  opacity: 1;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* COMMENTS */
+#comment {
+  width: 75%;
+}
+
+.commentbtn {
+  background-color: #4caf50;
+  width: 25%;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.comment-container {
+  margin-bottom: 5px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+#logout,
+.minipost-container,
+.thumbs-up-icon {
+  cursor: pointer;
+}
+
+.thumbs-up-icon:hover {
+  opacity: 0.8;
+}
+
+.minipost-container:hover {
+  opacity: 0.8;
+}
+
+textarea {
+  width: 100%;
+}
+
+.delete-btn {
+  background-color: #c54534;
+  color: white;
+  padding: 9px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.minipost-container:hover .delete-btn {
+  opacity: 0.8;
+}
+
+.minipost-container:hover > .delete-btn:hover {
+  opacity: 1;
+}
+
+.minipost-container {
+  margin-bottom: 15px;
+}
+
+.post-content {
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 18px;
+}
+
+.post-title {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 60px;
+}
+
+.comment-author {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.comment-content {
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+#site-name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
